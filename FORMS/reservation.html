@@ -1,0 +1,47 @@
+<!doctype html>
+	<html>
+	<head>
+		<title>RESERVATION FORM</title>
+	</head>
+	<body bgcolor="skyblue">
+		
+		<h2 > HOTEL RESERVATION FORM</h2><br>
+		<form method="post" action="" enctype="multipart/form-data">
+			<label>NAME OF CUSTOMER*:</label>  <input type="text" name="text1" " required size=30><br><br>
+			<label>PHONE NO*:</label>  <input type="text" name="text2" " required size=30><br><br>
+			<label>E-mail*:</label>   <input type="email"  required size=30><br><br>
+			<label>ADDRESS*:</label>  <input type="text" name="text3" required size=30><br><br>
+			<label>CITY*:</label>  <input type="text" name="text4" required size=30><br><br>
+			<label>STATE*:</label>  <input type="text" name="text5" required size=30><br><br>
+			<label>ZIPCODE*:</label>  <input type="text" name="text6" required size=30><br><br>
+			<label>HOTEL TYPE</label><select name="sltype">
+				<option>3 star</option>
+				<option>5 star</option>
+				<option>7 star</option>
+			</select>
+			<p>What you want to book?</p>
+			<input type="checkbox" name="chlkro" value="rooms"> ROOMS<br>
+			<input type="checkbox" name="chlkro" value="party venue"> PARTY VENUE<br>
+			<input type="checkbox" name="chlkro" value="rooms+partyvenue"> ROOMS+PARTY VENUE<br>
+			<input type="checkbox" name="chlkro" value="meetig hall"> MEETING HALL<br>
+			<input type="checkbox" name="chlkro" value="conference rooms"> CONFERENCE ROOM<br><br>
+			<label>DATE FROM:</label><input type="date"><br><br>
+			<label>DATE TILL:</label><input type="date"><br><br>
+			<label>ROOM PREFERENCE</label><br><input type="radio" name="rdpre" value="stan">STANDARD<br>
+			<input type="radio" name="rdpre" value="del">DELUXE<br>
+			<input type="radio" name="rdpre" value="sui">SUITE<br><br>
+			<label>NUMBER OF MEMBERS: </label><input type="number" name="member" required size=30><br><br>
+			<label>SUGGESTIONS:</label><br><br><textarea name="txtmessage" rows="5" cols="60"></textarea>
+			<p><STRONG>CLARIFY</STRONG></p> 
+			<P>You have to pay 50% of total money in advance.
+			In case of booking cancellation,20% of your booking amount is reduced</P>
+			<input type="radio" name="rdagg" value="agree">The infomation given is True to my Knowledge.I accept the terms and conditions.<br><br>
+			<input type="image" src="images/pic3.jpg" width="100" height="60">
+
+
+		</form>
+		
+	</body>
+	</html>
+
+

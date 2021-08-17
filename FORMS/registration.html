@@ -1,0 +1,42 @@
+<!doctype html>
+	<html>
+	<head>
+		<title>REGISTRATION FORM</title>
+	</head>
+	<body bgcolor="pink">
+		
+		<h2 > REGISTRATION FORM</h2><br>
+		<form method="post" action="" enctype="multipart/form-data">
+			<label>FIRSTNAME:</label>  <input type="text" name="text1" placeholder="Firstname*" required size=30><br><br>
+			<label>LASTNAME:</label>  <input type="text" name="text2" placeholder="Lastname*" required size=30><br><br>
+			<label>E-mail:</label>   <input type="email" placeholder="e-mail*" required size=30><br><br>
+			<label>PASSWORD:</label>  <input type="password" name="papassword" placeholder="password*" required size=30><br><br>
+			<label>CONFIRM PASSWORD: </label>  <input type="password" name="papassword" placeholder="confirm password*" required size=30><br><br>
+			<label>PHONE NUMBER:</label>  <input type="text" name="text3" placeholder="ph no*" required size=30><br><br>
+			<label>GENDER:</label><input type="radio" name="rdgender" value="male"> MALE 
+			<input type="radio" name="rdgender" value="female"> FEMALE
+			<input type="radio" name="rdgender" value="others"> OTHERS<br><br>
+			<p>     OCCUPATION:   </p><input type="radio" name="rdocc" value="student">STUDENT <br>
+			<input type="radio" name="rdocc" value="professional"> PROFESSIONAL<br>
+			<input type="radio" name="rdocc" value="others"> OTHERS<br><br>
+			<label>COLLEGE NAME:</label>  <input type="text" name="text4" placeholder="clgname*" required size=30><br><br>
+			<label>DEGREE:</label>  <input type="text" name="text5" placeholder="degree*" required size=30><br><br>
+			<label>DEPARTMENT:</label>  <input type="text" name="text6" placeholder="dept*" required size=30><br><br>
+			<label>YEAR OF STUDY</label><select name="slyear">
+			<option> I YEAR</option>
+			<option> II YEAR</option>
+			<option> III YEAR</option>
+			<option> IV YEAR</option> 
+			</select><br><br>
+			<label>INTERNSHIP PROGRAM YOU WANT TO GET ENROLLED:</label><br><br><input type="radio" name="intern" value="web dev">WEB DEVELOPMENT<br>
+			<input type="radio" name="intern" value="and dev"> ANDROID DEVELOPMENT<br>
+			<input type="radio" name="intern" value="ccomputing"> CLOUD COMPUTING <br><br>
+
+			<label>UPLOAD RESUME: </label><input type="file" name="flupload"><br><br>
+	
+			<label>ADDRESS:</label><textarea name="txtmessage" rows="3" cols="30"></textarea><br><br>
+			<input type="image" src="images/pic2.jpg" width="100" height="60">
+		
+		</form>
+	</body>
+	</html>
